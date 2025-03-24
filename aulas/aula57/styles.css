@@ -1,0 +1,21 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.calculator
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: lightblue;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.display
+{
+    grid-column: span 4;
+    text-align: right;
+}
